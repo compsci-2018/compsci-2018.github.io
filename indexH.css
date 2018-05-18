@@ -1,0 +1,138 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.active {
+border-bottom: 1px solid white;
+opacity: .3;
+}
+li {
+    display: inline;
+    padding-left: 10px;
+
+}
+.video{
+  height: 400px;
+vertical-align: middle;
+margin-left: 19px;
+}
+img.piggy{
+  vertical-align: super;
+
+}
+.summer {
+
+  display: table;
+
+}
+span {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+
+  font-family: 'Black Han Sans', sans-serif;
+  overflow: hidden;
+  box-shadow: .5px .5px #c0c1c4;
+  background-color: #f7f7f9;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  border-bottom-right-radius: 2px ;
+  border-bottom-left-radius: 2px ;
+  z-index: 100;
+}
+section{
+  text-align: center;
+  padding-bottom: 15px;
+    border-radius: 10px;
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #1a1a1c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  opacity: .7;
+}
+
+
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+p{
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+font-family: 'Arvo', serif;
+}
+h2{
+  padding-top: 50px;
+  text-align: center;
+margin-left: 19px;
+font-family: 'Arvo', serif;
+
+}
+.text{
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.long{
+  padding-top: 400px;
+  padding-bottom: 500px;
+}
+.light{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: grey;
+    border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  border-radius: 95px;
+}
+
+span{
+  color:#32324e;
+  text-align: center;
+}
+
+.button {
+    box-shadow: 2px 2px 3px #c0c1c4;
+max-width: 100%;
+max-height: 100%;
+      border-radius: 35px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 3px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 3px solid #fff4fd;
+}
+
+.button1:hover {
+    background-color: #a89ca2;
+    color: white;
+}

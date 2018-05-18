@@ -1,0 +1,14 @@
+body{
+font-family: 'Archivo Narrow', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+div{
+
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
