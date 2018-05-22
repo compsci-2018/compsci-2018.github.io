@@ -88,16 +88,16 @@ font-family: 'Arvo', serif;
 
 }
 .text{
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .long{
-  padding-top: 400px;
-  padding-bottom: 500px;
-}
-.light{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.light{
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: grey;
     border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
