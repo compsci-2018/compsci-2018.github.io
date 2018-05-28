@@ -186,3 +186,24 @@ h2.hidden {
   padding-top: 10px;
 font-size: 30px;
 }
+.red{
+  color: red;
+}
+
+
+#anchoring_box{
+  height: 100px;
+  width: 270px;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+left: 20px;
+  background: green;
+}
+.lilS{
+  padding-top: 10px;
+}
