@@ -69,7 +69,7 @@ body{
 
 .section-b{
 
-background-color: #000000;
+background-color: #3f4144;
   padding-top: 15px;
   padding-bottom:35px;
   color: white;s
@@ -180,4 +180,9 @@ h2.hidden {
 
 .hops{
   padding-top: 200px;
+}
+
+.bigText{
+  padding-top: 10px;
+font-size: 30px;
 }
