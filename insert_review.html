@@ -1,0 +1,110 @@
+<html>
+<head>  <link rel = "stylesheet"
+   type = "text/css"
+   href = "harm.css" />
+   <link rel="stylesheet" href="plugins/aos/aos.css">
+ <link rel = "stylesheet" href = "indexH.css" type = "text/css" />
+ <style>
+ @import url('https://fonts.googleapis.com/css?family=Arvo');
+ </style>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <title>SS Review</title>
+</head>
+
+  <body>
+
+
+    <div class="navbar">
+      <a href="index.html" >
+  <img src="coding.png" alt="Home button" style="width:42px;height:42px;border:0;"></a>
+  <ul>
+    <li><a href="start.html">Lessons</a></li>
+  <li><a href= "quiz_act.html">Activities</a></li>
+  <li><a href="test.html">Test</a></li>
+  </ul>
+    </div>
+
+
+<div class ="paras1" data-aos="flip-up">
+
+    <section class="section section-a">
+        <div class="container">
+      <h2>Insertion Sort questions below:
+      </b> </p>
+    </section>
+
+</div>
+</div>
+
+
+
+
+<section class="section section-quiz">
+  <h1>Basics first </h1>
+  <p id="q1"> How many passes does an array of n elements take to be sorted? </p>
+  <form>
+  <input type="radio" name="q1" value="n"> n passes
+
+  <input type="radio" name="q1" value="n-1">  n - 1 passes
+  <input type="radio" name="q1" value="n+1">n + 1 passes
+  </form>
+
+    <button type="button" onclick="clickFunction()">Submit</button>
+  </p>
+  <h id="demo"> </h>
+</section>
+
+
+<section class="section section-quiz">
+  <p id="q2"> After the kth pass, how many of the first elements are<br> in their final sorted spots?</p>
+  <form>
+  <input type="radio" name="q2" value="k"> K
+
+  <input type="radio" name="q2" value="k-1"> k - 1
+  <input type="radio" name="q2" value="k+1">k + 1
+  </form>
+
+    <button type="button" onclick="clickFunction2()">Submit</button>
+  </p>
+  <h id="answ2"> </h>
+</section>
+
+<section class="section section-d">
+  <div class="container">
+<table style="width:100%">
+
+  <tr>
+    <td> Given:<br><br>
+  45, 33, 65, 12, 46 <br> What will the list look <br>like after three iterations?
+     </td>
+
+    <td>
+
+  <p id="t1" onclick="myFunction()">First Pass</p>
+<p id="t2" onclick="myFunction2()">2nd Pass</p>
+<p id="t3" onclick="myFunction3()">3rd Pass</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td> How many iterations did it take to turn<br><br>
+      2, 7, 1, 5<br> <br>into:<br><br>
+      1, 7, 2, 5 ?
+     </td>
+
+    <td>   <p id="t4" onclick="myFunction4()">Answer</p>
+        </td>
+
+  </tr>
+</table>
+
+<script src="plugins/aos/aos.js"></script>
+<script type="text/javascript">
+AOS.init({
+duration:1100,
+});
+</script>
+
+</body>
+<script src="insert.js"></script>
+</html>

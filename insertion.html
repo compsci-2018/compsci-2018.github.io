@@ -89,54 +89,80 @@ find the smallest element and swap it with a[n]</p>
 
 <div class ="bigText" data-aos="fade-in">
     <p>
-43 32 76 99 18 98
+43,  32,  76,  99,  18,  98
 
 
  </P>
 </div>
 
 <div class ="paras1" data-aos="fade-in" id ="trigger-right">
-    <p> The smallest element is 2! So now we exchange this with a[0]
- </P>
+  32 is the 2nd element. It crosses over to the sorted side.<br> There, we realize 32 needs to be
+  <div class="tooltip"> placed before 43
+    <span class="tooltiptext">At this point 43 is the only one on the sorted side.</span>
+      </div>
+      <br>
  <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
 
 </div>
 
 <div class ="bigText" data-aos="flip-down">
-  <div class="tooltip">   2 7 9 4
-    <span class="tooltiptext">Since we already exchanged an element at a[0], we move on to the next element at a[1].</span>
-  </div>
+<p> 32, 43, 76, 99, 18, 98 </p>
 </div>
 
 
-
 <div class ="paras1" data-aos="fade-in">
-    <p>Again, we look for the smallest element.<br> which is 4
+    <p> 1st pass: 32 is insterted into right place, 43 moved down
  </P>
 </div>
 
 
 <div class ="paras1" data-aos="fade-in">
-    <p>Since we already exchanged an element at a[0], we move on to the next element at a[1]. <br>
-      Exchange 4 with 7 </p>
+    <p>Our sorted list is 32, 43. Now we move onto the next one, 76 <br>
+    2nd pass:  76 is already in the right spot because it is more than 32 and 43</p>
       <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
 </div>
 
 <div class ="bigText" data-aos="flip-down">
-    <p> 2 4 9 7
- </P>
+  <p>3rd pass: 32, 43, 76, 99, 18, 98 </p>
 </div>
 
 <div class ="paras1" data-aos="fade-in">
-    <p>Getting the hang of it? 7 is our smallest element now. We already swapped with the element at a[0] and a[1]<br>
-      so now lets exchange 9 and 7
+    <p>Our sorted list is 32, 43, 76. Now we move onto the next one, 99 <br>
+      99 is already in the right spot because it is the greatest in<br> the sorted list and should go last</p>
+      </p>
  </P>
  <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
 </div>
 
 <div class ="bigText" data-aos="flip-down">
-    <p>2479 <br> We're done! All elements are in order.
+      <p>4th pass: 32, 43, 76, 99, 18, 98 </p>
  </P>
+</div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is 32, 43, 76, 99. Now we move onto the next one, 18 <br>
+      18 is smaller than every element in our sorted list<br> so 18 should be placed first and the others move down</p>
+      </p>
+ </P>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+      <p>5th pass: 18, 32, 43, 76, 99, 98 </p>
+ </P>
+</div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is now 18, 32, 43, 76, 99. Now we move onto our last element in the unsorted list, 98 <br>
+      98 is smaller than 99 but bigger than rest<br> 98 is placed before 99 and now all elements are sorted</p>
+      </p>
+ </P>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+      <p>4th pass: 32, 43, 76, 99, 18, 98 </p>
+ <p> Done! The array of 6 elements took 6 passes to be sorted using the insertion sort!
 </div>
 
   </section>
@@ -146,7 +172,7 @@ find the smallest element and swap it with a[n]</p>
     <div class ="bigText" data-aos="fade-in">
         <p> Review Time!  Click below to review with some activites
      </P>
-     <a href="insertion_review.html">    <button class="button button1"> <img src="review_icon.png" alt="Home button" style="width:42px;height:42px;border:0;"> </button> </a>
+     <a href="insert_review.html">    <button class="button button1"> <img src="review_icon.png" alt="Home button" style="width:42px;height:42px;border:0;"> </button> </a>
 
 
 </section>

@@ -249,5 +249,5 @@ left: 20px;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
-    height: 130px;
+    height: 100px;
 }
