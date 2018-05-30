@@ -31,62 +31,24 @@
         <div class="container">
       <h2>Selection Sort: the "Search-and-swap" algorithm</h2>
 
-      <p> Below is a table of must-known facts, and beyond that is a step-by step explanation of this algorithm. Enjoy!
+      <p> Below are several review questions. <p>
       </b> </p>
     </section>
 
 </div>
 </div>
 
-<section class="section section-b">
-  <div class="container">
 
-    <h2>The Leading Consumption-Related Environmental Problems</h2>
-
-    <div class="row">
-      <div class="column">
-
-
-
-        <div class="piccy">
-          <img src="white.png" alt="Avatar" class="image" style="height:230px;">
-          <div class="overlay">
-            <div class="text">Air/Water Pollution</div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="column">
-        <div class="piccy">
-          <img src="white.png" alt="Avatar" class="image" style="height:230px;">          <div class="overlay">
-            <div class="text">Global Warming</div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="column">
-        <div class="piccy">
-          <img src="white.png" alt="Avatar" class="image" style="height:230px;">
-          <div class="overlay">
-            <div class="text">Habitat Alteration</div>
-          </div>
-        </div>
-
-
-    </div>
-
-</section>
 
 
 <section class="section section-quiz">
-  <h1>Reviewing: Lazarillo </h1>
-  <p id="q1"> Who wrote Lazarillo? </p>
+  <h1>Basics first </h1>
+  <p id="q1"> How many passes does an array of n elements take to be sorted? </p>
   <form>
-  <input type="radio" name="q1" value="Sabine Ulibarrí"> Sabine Ulibarrí
-  <input type="radio" name="q1" value="Caillou">  Nancy Morejón
-  <input type="radio" name="q1" value="Curious George">Curious George
+  <input type="radio" name="q1" value="n"> n passes
+
+  <input type="radio" name="q1" value="n-1">  n - 1 passes
+  <input type="radio" name="q1" value="n+1">n + 1 passes
   </form>
 
     <button type="button" onclick="clickFunction()">Submit</button>
@@ -94,21 +56,49 @@
   <h id="demo"> </h>
 </section>
 
+
 <section class="section section-quiz">
-  <h1>Next Loop question </h1>
-  <p id="q2"> words </p>
+  <p id="q2"> After the kth pass, how many of the first elements are<br> in their final sorted spots?</p>
   <form>
-  <input type="radio" name="q2" value="23"> Sabine Ulibarrí
-  <input type="radio" name="q2" value="25">  Nancy Morejón
-  <input type="radio" name="q2" value="0">Curious George
+  <input type="radio" name="q2" value="k"> K
+
+  <input type="radio" name="q2" value="k-1"> k - 1
+  <input type="radio" name="q2" value="k+1">k + 1
   </form>
 
-    <button type="button" onclick="clickFunction()">Submit</button>
+    <button type="button" onclick="clickFunction2()">Submit</button>
   </p>
-  <h id="2ndansw"> </h>
+  <h id="answ2"> </h>
 </section>
 
+<section class="section section-d">
+  <div class="container">
+<table style="width:100%">
 
+  <tr>
+    <td> Given:<br><br>
+  45, 33, 65, 12, 46 <br> What will the list look <br>like after three iterations?
+     </td>
+
+    <td>
+
+  <p id="t1" onclick="myFunction()">First Pass</p>
+<p id="t2" onclick="myFunction2()">2nd Pass</p>
+<p id="t3" onclick="myFunction3()">3rd Pass</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td> How many iterations did it take to turn<br><br>
+      2, 7, 1, 5<br> <br>into:<br><br>
+      1, 7, 2, 5 ?
+     </td>
+
+    <td>   <p id="t4" onclick="myFunction4()">Answer</p>
+        </td>
+
+  </tr>
+</table>
 
 <script src="plugins/aos/aos.js"></script>
 <script type="text/javascript">
