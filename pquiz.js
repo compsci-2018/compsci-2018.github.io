@@ -17,13 +17,13 @@ if(points ==1){
   document.getElementById("demo").innerHTML = "Correct!";
 }
 if(points ==2){
-  alert("wrong ");
+  document.getElementById("demo").innerHTML = "incorrect!";
 }
 if(points ==3){
-  alert("Dora");
+  document.getElementById("demo").innerHTML = "incorrect!";
 }
 if(points ==4){
-  alert("CG");
+  document.getElementById("demo").innerHTML = "incorrect!";
 }
 function myFunction() {
   document.getElementById("demo").innerHTML = "Hello World";
