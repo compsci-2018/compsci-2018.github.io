@@ -82,3 +82,6 @@ function myFunction() {
 function myFunction2() {
     document.getElementById("t2").innerHTML = "quick sort!";
 }
+function myFunction2() {
+    document.getElementById("t3").innerHTML = "merge sort!";
+}
