@@ -47,21 +47,20 @@
 
     <div class="row">
       <div class="column">
-        <h1> Worst Case and Best case </h1>
-<p> Worst case occurs when the array starts out in reversed order (big to small). This takes maximum amount of comparisons<br> Best case is when the list is already sorted small to big. It only takes one comparison</p>
+        <h1> How it works: </h1>
+<p>Merge Sort calls itself (recursive) It splits itself into halves, than calls itself for each half, continuing to further split itself. After every division is sorted, they are all merged back together</p>
           </div>
 
       <div class="column">
-        <h1> For an array of n...</h1>
-    <p>the array is sorted after n-1 passes. Just like Selection sort </p>
+        <h1> Disadvantages.</h1>
+    <p> Merge uses a temporary array that is as large as the array. This uses up more space</p>
         </div>
 
       <div class="column">
-        <h1> After the kth pass..</h1>
-      <p> After the kth pass, elements at a[0] through a[k] are sorted with respect to each other. </p>
+        <h1> Big O notation</h1>
+      <p> O(n * log(n)). Since merge sort is not affected by intial ordering, best and average case scenarios are often similar </p>
       <br>
       <br>
-      <p> tip: When we are dealing with a large n, insertion sorts are not efficient</p>
         </div>
 
 
@@ -88,8 +87,8 @@
 
 <div class ="bigText" data-aos="fade-in">
     <p>
-      <iframe width="420" height="345" src="https://www.youtube.com/watch?v=iMT7gTPpaqw">
-      </iframe>
+      <video src="merged.mp4" style="width:600px" autoplay="true" loop="" muted >
+     </video>
     </p>
 
 
