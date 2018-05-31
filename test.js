@@ -97,3 +97,7 @@ function myFunction5() {
 function myFunction6() {
     document.getElementById("t6").innerHTML = "Quick Sort!";
 }
+
+function myFunction6() {
+    document.getElementById("t7").innerHTML = "Insertion Sort!";
+}
