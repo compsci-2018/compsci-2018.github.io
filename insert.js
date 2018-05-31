@@ -14,7 +14,7 @@ if(points ==1){
   document.getElementById("demo").innerHTML = "Incorrect, try again";
 }
 if(points ==2){
-  document.getElementById("demo").innerHTML = "Correct!";
+  document.getElementById("demo").innerHTML = "Correct! Just like selection sorts";
 }
 if(points ==3){
   document.getElementById("demo").innerHTML = "Wrong, try again";
