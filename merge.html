@@ -1,0 +1,191 @@
+<html>
+<head>  <link rel = "stylesheet"
+   type = "text/css"
+   href = "harm.css" />
+   <link rel="stylesheet" href="plugins/aos/aos.css">
+ <link rel = "stylesheet" href = "indexH.css" type = "text/css" />
+ <style>
+ @import url('https://fonts.googleapis.com/css?family=Arvo');
+ </style>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <title>Merge Sort</title>
+</head>
+
+  <body>
+
+
+    <div class="navbar">
+      <a href="index.html" >
+  <img src="coding.png" alt="Home button" style="width:42px;height:42px;border:0;"></a>
+  <ul>
+    <li><a href="start.html">Lessons</a></li>
+  <li><a href= "quiz_act.html">Activities</a></li>
+  <li><a href="test.html">Test</a></li>
+  </ul>
+    </div>
+
+
+<div class ="paras1" data-aos="flip-up">
+
+    <section class="section section-a">
+        <div class="container">
+      <h2>Merge Sort!</h2>
+
+      <p> Merge sort uses what is known as a divide and conquer approach. This approach makes merge sorting more efficient than selection and insertion sorts.
+
+      </b> </p>
+    </section>
+
+</div>
+</div>
+
+
+<section class="section section-b">
+  <div class="container">
+
+    <h2> Quick Facts</h2>
+
+    <div class="row">
+      <div class="column">
+        <h1> Worst Case and Best case </h1>
+<p> Worst case occurs when the array starts out in reversed order (big to small). This takes maximum amount of comparisons<br> Best case is when the list is already sorted small to big. It only takes one comparison</p>
+          </div>
+
+      <div class="column">
+        <h1> For an array of n...</h1>
+    <p>the array is sorted after n-1 passes. Just like Selection sort </p>
+        </div>
+
+      <div class="column">
+        <h1> After the kth pass..</h1>
+      <p> After the kth pass, elements at a[0] through a[k] are sorted with respect to each other. </p>
+      <br>
+      <br>
+      <p> tip: When we are dealing with a large n, insertion sorts are not efficient</p>
+        </div>
+
+
+
+
+
+    </div>
+
+</section>
+
+
+<section class="section section-d">
+
+<div class ="paras1" data-aos="fade-down">
+    <p>Starting with the 2nd element at array[1].
+ </P>
+    </div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p> Given these elements
+ </P>
+</div>
+
+<div class ="bigText" data-aos="fade-in">
+    <p>
+43,  32,  76,  99,  18,  98
+
+
+ </P>
+</div>
+
+<div class ="paras1" data-aos="fade-in" id ="trigger-right">
+  32 is the 2nd element. It crosses over to the sorted side.<br> There, we realize 32 needs to be
+  <div class="tooltip"> placed before 43
+    <span class="tooltiptext">At this point 43 is the only one on the sorted side.</span>
+      </div>
+      <br>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+<p> 32, 43, 76, 99, 18, 98 </p>
+</div>
+
+
+<div class ="paras1" data-aos="fade-in">
+    <p> 1st pass: 32 is insterted into right place, 43 moved down
+ </P>
+</div>
+
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is 32, 43. Now we move onto the next one, 76 <br>
+    2nd pass:  76 is already in the right spot because it is more than 32 and 43</p>
+      <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+  <p>3rd pass: 32, 43, 76, 99, 18, 98 </p>
+</div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is 32, 43, 76. Now we move onto the next one, 99 <br>
+      99 is already in the right spot because it is the greatest in<br> the sorted list and should go last</p>
+      </p>
+ </P>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+      <p>4th pass: 32, 43, 76, 99, 18, 98 </p>
+ </P>
+</div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is 32, 43, 76, 99. Now we move onto the next one, 18 <br>
+      18 is smaller than every element in our sorted list<br> so 18 should be placed first and the others move down</p>
+      </p>
+ </P>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+      <p>5th pass: 18, 32, 43, 76, 99, 98 </p>
+ </P>
+</div>
+
+<div class ="paras1" data-aos="fade-in">
+    <p>Our sorted list is now 18, 32, 43, 76, 99. Now we move onto our last element in the unsorted list, 98 <br>
+      98 is smaller than 99 but bigger than rest<br> 98 is placed before 99 and now all elements are sorted</p>
+      </p>
+ </P>
+ <img src="down.png" alt="Home button" style="width:52px;height:52px;border:0;">
+</div>
+
+<div class ="bigText" data-aos="flip-down">
+      <p>4th pass: 32, 43, 76, 99, 18, 98 </p>
+ <p> Done! The array of 6 elements took 6 passes to be sorted using the insertion sort!
+</div>
+
+  </section>
+
+<section class="section section-e">
+  <div class="container">
+    <div class ="bigText" data-aos="fade-in">
+        <p> Review Time!  Click below to review with some activites
+     </P>
+     <a href="insert_review.html">    <button class="button button1"> <img src="review_icon.png" alt="Home button" style="width:42px;height:42px;border:0;"> </button> </a>
+
+
+</section>
+
+<section class="section section-g">
+</section>
+
+
+<script src="plugins/aos/aos.js"></script>
+<script type="text/javascript">
+AOS.init({
+duration:1100,
+});
+</script>
+
+</body>
+
+</html>
