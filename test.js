@@ -85,3 +85,7 @@ function myFunction2() {
 function myFunction3() {
     document.getElementById("t3").innerHTML = "merge sort!";
 }
+
+function myFunction4() {
+    document.getElementById("t4").innerHTML = "selection sort!";
+}
