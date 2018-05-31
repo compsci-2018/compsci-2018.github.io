@@ -78,3 +78,7 @@ function drop(ev) {
 function myFunction() {
     document.getElementById("t1").innerHTML = "5, 7, 9, 1";
 }
+
+function myFunction2() {
+    document.getElementById("t1").innerHTML = "quick sort!";
+}
