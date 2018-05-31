@@ -89,3 +89,7 @@ function myFunction3() {
 function myFunction4() {
     document.getElementById("t4").innerHTML = "selection sort!";
 }
+
+function myFunction5() {
+    document.getElementById("t5").innerHTML = "merge sort runs faster than insertion sort";
+}
