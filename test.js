@@ -80,5 +80,5 @@ function myFunction() {
 }
 
 function myFunction2() {
-    document.getElementById("t1").innerHTML = "quick sort!";
+    document.getElementById("t2").innerHTML = "quick sort!";
 }
